@@ -357,6 +357,13 @@ a {
 
 .list-content .info-group {
     margin-top: 22px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-content .info {
+    display: flex;
+    align-items: center;
 }
 
 .list-content .info-group .icon {
