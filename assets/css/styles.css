@@ -83,7 +83,6 @@ a {
 .nav-bar a {
     padding: 8px 14px;
     color: var(--primary-color);
-    /* background-color: orange; */
 }
 
 .nav-bar ul a:hover {
@@ -107,15 +106,16 @@ a {
     align-items: center;
 }
 
+.header {
+    display: flex;
+    align-items: center;
+}
+
 .nav-bar .actions .link-action {
     padding-left: 18px;
 }
 
 /* header container */
-
-.header-container {
-    padding-top: 130px;
-}
 
 .header-container img {
     position: absolute;
